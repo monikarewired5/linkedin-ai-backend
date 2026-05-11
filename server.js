@@ -63,7 +63,7 @@ const client =
 // =====================================================
 
 app.get(
-  "/health",
+  "/linkedin-smart-feed/api/health",
   (req, res) => {
 
     res.json({
@@ -77,14 +77,14 @@ app.get(
 // =====================================================
 
 app.use(
-  "/docs",
+  "/linkedin-smart-feed/api/docs",
   swaggerUi.serve,
   swaggerUi.setup(swaggerSpec)
 );
 
 /**
  * @swagger
- * /analyze:
+ * /linkedin-smart-feed/api/analyze:
  *   post:
  *     summary:
  *       Analyze LinkedIn posts
@@ -119,7 +119,7 @@ app.use(
 // =====================================================
 
 app.post(
-  "/analyze",
+  "/linkedin-smart-feed/api/analyze",
   async (req, res) => {
 
     try {
