@@ -19,7 +19,7 @@ const options = {
     servers: [
       {
         url:
-          "https://www.photospotco.com/linkedin-smart-feed/api"
+          "https://www.photospot.com"
       }
     ]
   },
