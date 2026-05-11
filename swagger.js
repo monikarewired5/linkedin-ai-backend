@@ -19,7 +19,7 @@ const options = {
     servers: [
       {
         url:
-          "http://localhost:8000"
+          "http://photospotco.com:8000"
       }
     ]
   },
