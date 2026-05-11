@@ -19,7 +19,7 @@ const options = {
     servers: [
       {
         url:
-          "https://www.photospot.com"
+          "https://www.photospotco.com"
       }
     ]
   },
